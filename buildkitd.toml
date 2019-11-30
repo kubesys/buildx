@@ -2,5 +2,5 @@
 debug = true
 
 [registry."docker.io"]
-  mirrors = ["https://dockerhub.azk8s.cn"]
-  http = true
+  mirrors = ["reg-mirror.qiniu.com","docker.mirrors.ustc.edu.cn","hub-mirror.c.163.com","dockerhub.azk8s.cn"]
+  http = false
