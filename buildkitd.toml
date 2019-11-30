@@ -1,4 +1,6 @@
 # https://github.com/moby/buildkit/blob/master/docs/buildkitd.toml.md
+debug = true
+
 [registry."docker.io"]
-  mirrors = ["dockerhub.azk8s.cn"]
+  mirrors = ["https://dockerhub.azk8s.cn"]
   http = false
