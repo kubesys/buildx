@@ -3,5 +3,5 @@
 debug = true
 
 [registry."docker.io"]
-  mirrors = ["hub-mirror.c.163.com","registry-1.docker.io"]
+  mirrors = ["mirrors.163.com","mirrors.tuna.tsinghua.edu.cn","mirrors.aliyun.com","dockerproxy.cn","https://docker.rainbond.cc"]
   http = false
